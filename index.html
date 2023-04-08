@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Animate on Scroll</title>
+  </head>
+  <body>
+    <div class="top-text">
+      <h1><span>Acrylic Painting</span> Gallery</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, aperiam?
+      </p>
+    </div>
+
+    <main class="t-container">
+      <section class="container">
+        <img src="./img/img1.jpg" alt="" />
+        <div class="text">
+          <h3>Acrylic Painting One</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid
+            assumenda facere praesentium aperiam reiciendis dolorem laborum nemo
+            error sint consequatur, vero eligendi odit voluptate pariatur!
+            Alias, laboriosam repudiandae! Enim, porro!
+          </p>
+          <a href="#" class="btn">Buy Now</a>
+        </div>
+      </section>
+      <section class="container" data-aos="fade-left">
+        <img src="./img/img2.jpg" alt="" />
+        <div class="text">
+          <h3>Acrylic Painting Two</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid
+            assumenda facere praesentium aperiam reiciendis dolorem laborum nemo
+            error sint consequatur, vero eligendi odit voluptate pariatur!
+            Alias, laboriosam repudiandae! Enim, porro!
+          </p>
+          <a href="#" class="btn">Buy Now</a>
+        </div>
+      </section>
+      <section class="container" data-aos="fade-right">
+        <img src="./img/img3.jpg" alt="" />
+        <div class="text">
+          <h3>Acrylic Painting Three</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid
+            assumenda facere praesentium aperiam reiciendis dolorem laborum nemo
+            error sint consequatur, vero eligendi odit voluptate pariatur!
+            Alias, laboriosam repudiandae! Enim, porro!
+          </p>
+          <a href="#" class="btn">Buy Now</a>
+        </div>
+      </section>
+      <section class="container" data-aos="fade-left">
+        <img src="./img/img4.jpg" alt="" />
+        <div class="text">
+          <h3>Acrylic Painting Four</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid
+            assumenda facere praesentium aperiam reiciendis dolorem laborum nemo
+            error sint consequatur, vero eligendi odit voluptate pariatur!
+            Alias, laboriosam repudiandae! Enim, porro!
+          </p>
+          <a href="#" class="btn">Buy Now</a>
+        </div>
+      </section>
+      <section class="container" data-aos="fade-right">
+        <img src="./img/img5.jpg" alt="" />
+        <div class="text">
+          <h3>Acrylic Painting Five</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid
+            assumenda facere praesentium aperiam reiciendis dolorem laborum nemo
+            error sint consequatur, vero eligendi odit voluptate pariatur!
+            Alias, laboriosam repudiandae! Enim, porro!
+          </p>
+          <a href="#" class="btn">Buy Now</a>
+        </div>
+      </section>
+    </main>
+
+    <!-- Script Tag -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+      AOS.init({
+        duration: 1000,
+        offset: 400,
+      });
+    </script>
+  </body>
+</html>
